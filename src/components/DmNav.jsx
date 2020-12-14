@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button'
 const DmNav = () => {
 
     return (
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" expand='xl'>
       <Navbar.Brand href="#home">Home</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="#home">Races</Nav.Link>

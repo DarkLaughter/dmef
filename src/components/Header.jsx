@@ -14,7 +14,7 @@ const Header= () => {
     }
 
     return (
-        <Jumbotron fluid style={jubmoStyle} >
+        <Jumbotron fluid style={jubmoStyle} expand='sm'>
         <Container>
             <h1>DM Reference</h1>
             <p>Topics and Areas for Every Dungeon Master</p>
