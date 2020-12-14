@@ -7,7 +7,9 @@ const Header= () => {
     const jubmoStyle = {
         marginBottom: 0,
         color: 'white',
-        backgroundImage: 'url(https://cdn.pixabay.com/photo/2019/08/22/08/30/fantasy-4422921_960_720.jpg)',
+        backgroundImage: 'url(https://media.dnd.wizards.com/styles/news_banner_header/public/images/news/G30FYHMw8D.jpg)',
+        backgroundRepeat: 'noRepeat',
+        backgroundSize: 'cover',
 
     }
 
@@ -15,9 +17,7 @@ const Header= () => {
         <Jumbotron fluid style={jubmoStyle} >
         <Container>
             <h1>DM Reference</h1>
-            <p>
-                Common Topics and Areas for Every Dungeon Master
-            </p>
+            <p>Topics and Areas for Every Dungeon Master</p>
         </Container>
         </Jumbotron>
     )

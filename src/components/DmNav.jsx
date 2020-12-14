@@ -11,11 +11,14 @@ const DmNav = () => {
 
     return (
       <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+      <Navbar.Brand href="#home">Home</Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#features">Features</Nav.Link>
-        <Nav.Link href="#pricing">Pricing</Nav.Link>
+        <Nav.Link href="#home">Races</Nav.Link>
+        <Nav.Link href="#features">Equipment</Nav.Link>
+        <Nav.Link href="#pricing">Spells</Nav.Link>
+        <Nav.Link href="#home">Monsters</Nav.Link>
+        <Nav.Link href="#home">Game Mechanics</Nav.Link>
+        <Nav.Link href="#home">Rules</Nav.Link>
       </Nav>
       <Form inline>
         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
