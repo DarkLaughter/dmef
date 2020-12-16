@@ -28,7 +28,7 @@ const Home = () => {
                 <p>Starting Equipment For Characters</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            {/* <Carousel.Item>
                 <img
                 className="d-block w-100"
                 src="https://lh3.googleusercontent.com/proxy/rJSX6gRb9jDABR4PoN0iZZ6bAlcjnyO9hJ4FkprJ878XzyiuYQkHy2nvCUs2LX68kY3_kqjXswfAxThl5UQSB6NcL5DWqkaBI09AF3xVlJYhxiivcyjOJyDy5AL-nR140Q61DTm4dQkJp97PkoyF950OwOM7xEpD"
@@ -39,7 +39,7 @@ const Home = () => {
                 <h3>Game Mechanics</h3>
                 <p>Running the Game</p>
                 </Carousel.Caption>
-            </Carousel.Item>
+            </Carousel.Item> */}
             </Carousel>
         </Container>
     )

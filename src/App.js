@@ -1,5 +1,5 @@
 import React from 'react'
-// import Layout from './components/Layout';
+import { Switch, Route } from 'react-router-dom'
 import Header from './components/Header'
 import DmNav from './components/DmNav'
 import Home from './components/Home'
@@ -11,7 +11,11 @@ const App = () => {
         <div>
             <Header/>
             <DmNav/>
-            <Home/>
+            <Switch>
+            <div className="layout">
+            <Route exact path="/" component={Home} />
+            </div>
+            </Switch>
         </div>
     )
 }

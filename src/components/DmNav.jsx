@@ -1,4 +1,5 @@
 import React from 'react'
+import {withRouter, Link} from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -16,7 +17,7 @@ const DmNav = () => {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-      <Nav.Link href="#home">Races</Nav.Link>
+      <Nav.Link as={Link} to="/">Races</Nav.Link>
          <Nav.Link href="#features">Equipment</Nav.Link>
           <Nav.Link href="#pricing">Spells</Nav.Link>
         <NavDropdown title="The Game" id="basic-nav-dropdown">
@@ -35,4 +36,4 @@ const DmNav = () => {
 }
 
 
-export default DmNav
+export default withRouter(DmNav)
