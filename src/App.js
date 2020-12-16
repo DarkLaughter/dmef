@@ -1,8 +1,10 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import Layout from './components/Layout';
 import Header from './components/Header'
 import DmNav from './components/DmNav'
 import Home from './components/Home'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
     return (
