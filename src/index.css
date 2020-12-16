@@ -2,7 +2,7 @@ body {
     background-color: #495057;
 }
 
-.layout {
+.wrapper {
     height: 80vh;
     width: 100%;
     display: flex;

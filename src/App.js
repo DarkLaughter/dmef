@@ -7,14 +7,15 @@ import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
+
+    const home = () =>{ return <div className="wrapper"><Home/></div> }
+
     return (
         <div>
             <Header/>
             <DmNav/>
             <Switch>
-            <div className="layout">
-            <Route exact path="/" component={Home} />
-            </div>
+            <Route exact path="/" component={home} />
             </Switch>
         </div>
     )
