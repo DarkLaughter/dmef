@@ -18,12 +18,12 @@ const DmNav = () => {
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
       <Nav.Link as={Link} to="/">Races</Nav.Link>
-         <Nav.Link href="#features">Equipment</Nav.Link>
-          <Nav.Link href="#pricing">Spells</Nav.Link>
+         <Nav.Link href="#Equipment">Equipment</Nav.Link>
+          <Nav.Link href="#Spells">Spells</Nav.Link>
         <NavDropdown title="The Game" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Monsters</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Game Mechanics</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Rules</NavDropdown.Item>
+          <NavDropdown.Item href="#monsters">Monsters</NavDropdown.Item>
+          <NavDropdown.Item href="#Game-Mechanics">Game Mechanics</NavDropdown.Item>
+          <NavDropdown.Item href="#">Rules</NavDropdown.Item>
         </NavDropdown>
       </Nav>
         <Form inline>
