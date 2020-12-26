@@ -3,12 +3,16 @@ import { Switch, Route } from 'react-router-dom'
 import Header from './components/Header'
 import DmNav from './components/DmNav'
 import Home from './components/Home'
+import PageDefault from './components/PageDefault'
+import SearchPage from './components/SearchPage';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
 
-    const home = () =>{ return <div className="wrapper"><Home/></div> }
+    const home = () => { return <div className="wrapper"><Home/></div> }
+    const pageDefault = () => {return <div className="wrapper"><PageDefault/></div>}
+    const searchPage = () => {return <div className="wrapper" ><SearchPage/></div> }
 
     return (
         <div>
@@ -16,6 +20,8 @@ const App = () => {
             <DmNav/>
             <Switch>
             <Route exact path="/" component={home} />
+            <Route exact path="/default" component={pageDefault}/>
+            <Route exact path="/search" component={searchPage} />
             </Switch>
         </div>
     )
