@@ -7,12 +7,12 @@ const PageDefault = () => {
 <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://assets1.ignimgs.com/2019/05/29/dndmobile-br-1559158957902.jpg" />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>No Avaiable Information</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      You currently have nothing saved or have searched anything, 
+      Please use the search bar or change sections
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    <Button variant="primary">Main Page</Button>
   </Card.Body>
 </Card>
     )
