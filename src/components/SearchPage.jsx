@@ -7,9 +7,6 @@ const SearchPage = () => {
     return (
         <CardDeck>
             <SearchCards />
-            <SearchCards />
-            <SearchCards />
-            <SearchCards />
         </CardDeck>
     )
 }
